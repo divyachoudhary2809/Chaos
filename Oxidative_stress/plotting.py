@@ -104,6 +104,6 @@ def plotgrxagrad(dfallcells,numberoftrench,treated,duration):
                        t=df_mothergr.index 
                        sx2= df_mothergr.GrxA.values
 
-                       ax.plot(t[5:]-treated, sx2[5:] , lw=1, color = cx[postrench] )
+                       ax.plot(t[5:]-treated, sx2[5:] , lw=1, color = colors[postrench] )
                        ax.set_xlabel('Time', fontsize=15)
                        ax.set_ylabel('GrxA', fontsize=15 )
