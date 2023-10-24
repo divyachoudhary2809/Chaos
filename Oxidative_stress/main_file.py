@@ -23,12 +23,7 @@ def main_run (     limm, gI, trenches_, duration, conx,time_oftreat):
     
  
     treated= time_oftreat
-    
-    
-    kcat =  660.*60. 
-    ah2= 1.2   
-    kh2= 5900. 
-    kcat2 =490000.*60. 
+
                       
     def tps(ll,timedur , trenches,yggput, c0init) :
               t=[[] for i in range(len(trenches))]
