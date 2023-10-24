@@ -31,4 +31,5 @@ Here, <br>
 (e) Finally, the 'main_file.py' or 'main_file_noisy.py' contains the code to run all 3 models together -- the growth rate model + the cell-cell interaction model + the stress response model.<br>
 
 
-Refer to 'Chaos in a bacterial stress response' Divya Choudhary, Kevin R Foster, Stephan Uphoff for more details about the models.
+Refer to 'Chaos in a bacterial stress response' Divya Choudhary, Kevin R Foster*, Stephan Uphoff* for more details about the models.<br>
+*=Corresponding authors
