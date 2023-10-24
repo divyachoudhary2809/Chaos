@@ -8,7 +8,7 @@ import main_file as run
 import random
 
  
-duration = 2000 ; #total duration
+duration = 6000 ; #total duration
 time_of_treat= 800
 trenchLength =25. ;   ### trench length in um
 g0 = 0.042;  
