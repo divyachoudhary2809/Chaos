@@ -23,7 +23,7 @@ for ntrench in range(numberoftrench):
     trenches[ntrench] =[] ;  
     len_=0
     for i in range(0, random.randint(3,8)):
-        if len_ < TrenchLength:
+        if len_ < trenchLength:
             lenadd= random.randint(2010, 3990)/1000.
             trenches[ntrench] .append(lenadd )
             len_+=lenadd#'''
