@@ -144,7 +144,7 @@ def main_run (     limm, gI, trenches_, duration, conx,time_oftreat):
 
     trenches=[]
     for tr in trenches_:
-        tr_ = [round(i*10., 2) for i in tr]
+        tr_ = [ i*10.  for i in tr]
         trenches+=[tr_]        
     
     limm = limm*10.
