@@ -12,7 +12,7 @@ duration = 2000 ; #total duration
 time_of_treat= 800
 trenchLength =25. ;   ### trench length in um
 g0 = 0.042;  
-concentration=250. ### treatment concentration in uM  
+concentration=260. ### treatment concentration in uM  
 
 
 ### if you want to choose randomised initial conditions
