@@ -10,15 +10,15 @@ import random
 
 Kcat= 20.  ##Kcat
 Kactivation =0.1 ## Kactivation
-concentration = 80. ## toxin concentration
-duration = 200# ## duration of simulation in minutes
+concentration = 150. ## toxin concentration
+duration = 2000.# ## duration of simulation in minutes
 TrenchLength = 25.### trench length in um
 treated=50
 
 
 ### if you want to choose randomised initial conditions
 ## for having a randomised structure of 'N' = number of trenches.  just supply N in the line below
-numberoftrench = 10
+numberoftrench = 3
 trenches=[[]]* numberoftrench
 for ntrench in range(numberoftrench):
     trenches[ntrench] =[] ;  
