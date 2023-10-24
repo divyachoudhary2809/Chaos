@@ -7,10 +7,9 @@ Created on Thu Mar  9 10:51:41 2023
 import main_file as run 
 import random
 
-conx=10.
  
-duration = 1200 ; trenchLength =25. ;   ### trench length in um
-g0 = 0.042;  concentration=conx ### treatment concentration in uM  
+duration = 2000 ; trenchLength =25. ;   ### trench length in um
+g0 = 0.042;  concentration=250. ### treatment concentration in uM  
 time_of_treat= 800
 
 numberoftrench = 1
