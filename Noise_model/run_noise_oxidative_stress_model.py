@@ -14,7 +14,7 @@ duration = 1200 ; trenchLength =25. ;   ### trench length in um
 g0 = 0.042;  concentration=160. ### treatment concentration in uM  
 time_of_treat= 200
 
-numberoftrench = 1
+numberoftrench = 3
 trenches=[[]]* numberoftrench
 for ntrench in range(numberoftrench):
     trenches[ntrench] =[] ;  
