@@ -1,1 +1,1 @@
-# Chaos
+# Chaos in bacterial stress responses
