@@ -11,7 +11,7 @@ import random
 
 sigmaa = 0.02
 duration = 1200 ; trenchLength =25. ;   ### trench length in um
-g0 = 0.042;  concentration=20. ### treatment concentration in uM  
+g0 = 0.042;  concentration=160. ### treatment concentration in uM  
 time_of_treat= 200
 
 numberoftrench = 1
