@@ -52,7 +52,7 @@ def plotgrxa(dfallcells,numberoftrench,treated,duration):
                                 t=df_mothergr.index 
                       
                                 sx2= df_mothergr.GrxA.values
-                                ax.plot(t-treated, sx2 , lw=1,  label='GrxA' , color=colors[postrench])
+                                ax.plot(t-treated, sx2 , lw=1,  label='GrxA' , color=colors[trench])
                          
                                 ax.set_xlabel('Time', fontsize=15)
                                 ax.set_ylabel('GrxA', fontsize=15 )  
@@ -82,25 +82,9 @@ def plotpoincare(dfallcells,numberoftrench,treated,duration):
                       
                                 sx2= df_mothergr.GrxA.values
                                 sx2= sx2[treated+500:]
-                                ax.plot(sx2[10:], sx2[:-10] , lw=1,  label='GrxA' , color=colors[postrench])
+                                ax.plot(sx2[10:], sx2[:-10] , lw=1,  label='GrxA' , color=colors[trench])
                          
                                 ax.set_xlabel('GrxA at t+10', fontsize=15)
                                 ax.set_ylabel('GrxA', fontsize=15 ) 
                                 ax.set_title('Cell number = %s'%trench)
-
-def plotgrxagrad(dfallcells,numberoftrench,treated,duration):
-   colors=   mcp.gen_color(cmap="nipy_spectral",n=numberoftrench+1)
-   image,ax =plt.subplots(figsize=(2,2), dpi=300)
-   for concvalues in np.unique(dfallcells.concentration.values)[0:1]:
-               df2 = dfallcells[dfallcells.concentration.values == concvalues]
-               for postrench in range(1,6):
-                       df_mother = df2[df2.PositionClosedEnd ==  df2.max_cells - postrench]
-                       df_mother=df_mother
-                       df_mothergr =  df_mother.groupby('Frame').mean()
-                     
-                       t=df_mothergr.index 
-                       sx2= df_mothergr.GrxA.values
-
-                       ax.plot(t[5:]-treated, sx2[5:] , lw=1, color = colors[postrench] )
-                       ax.set_xlabel('Time', fontsize=15)
-                       ax.set_ylabel('GrxA', fontsize=15 )
+ 
