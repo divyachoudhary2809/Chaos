@@ -29,3 +29,6 @@ Here,
 (c) The 'plotting.py' contains functions to plot different variables as user desires. By default it plots the GrxA (for oxidative stress) / enzyme (for general stress) dynamics over time and the poincare plots for data points 400 minutes after treatment time.
 (d) The 'response_model.py', 'abstract_response_model.py' or 'discreteresponsemodel.py' files contain the Ordinary differential equations (ODEs) for the oxidative and general stress response respectively.
 (e) Finally, the 'main_file.py' or 'main_file_noisy.py' contains the code to run all 3 models together -- the growth rate model + the cell-cell interaction model + the stress response model.
+
+
+Refer to 'Chaos in a bacterial stress response' Divya Choudhary, Kevin R Foster, Stephan Uphoff for more details about the models.
