@@ -161,7 +161,7 @@ def main_run (    kcats, Kenzyme , conx,duration  , trenches_,limm,treated):
      
     trenches=[]
     for tr in trenches_:
-        tr_ = [i * 10 for i in tr]
+        tr_ = [ i*10.  for i in tr]
         trenches+=[tr_]
 
     kc =      kcats  
