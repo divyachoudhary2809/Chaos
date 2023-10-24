@@ -10,7 +10,7 @@ import random
 
 Kcat= 20.  ##Kcat
 Kactivation =0.1 ## Kactivation
-concentration = 165. ## toxin concentration
+concentration = 162. ## toxin concentration
 duration = 2000# ## duration of simulation in minutes
 TrenchLength = 25.### trench length in um
 treated=50
