@@ -9,7 +9,7 @@ import tifffile
 import os
 
 list2=[0.] 
-x = 0;y = 0+40;dx = 10 ;dy =11+40 ## width = dy-y which is what i can take as rc*10*2 ; y is the limit on right
+x = 0;y = 0+40;dx = 10 ;dy =11+40  
 class main():
     
     def make_ellipse(self, image, x, y, dx, dy, next_1, color):
