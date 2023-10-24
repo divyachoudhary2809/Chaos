@@ -4,7 +4,7 @@ The folder contains 3 folders that contain code to run the simulations for:
 (2) General stress response : General_stress
 (2) Oxidative stress response with added noise : Noise_model 
 
-Both folders contain the following python files:
+Both folders contain the following python files:\n
 (1)Oxidative_stress contains -
 	(a) imagesFromModel_function_1001.py
 	(b) plotting.py
