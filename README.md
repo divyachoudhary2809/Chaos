@@ -5,7 +5,7 @@ The folder contains 4 folders, three of which contain code to run the simulation
 (3) Oxidative stress response with added noise : Noise_model <br>
 
 and the last folder is for experimental data analysis:<br>
-(4) Experimental data analysis: <br>
+(4) Experimental data analysis  <br>
 
 Simulation folders contain the following python files: <br>
 (1)Oxidative_stress contains -<br>
