@@ -1,6 +1,5 @@
 # Chaos in bacterial stress responses
-The folder contains 4 folders that contain code to run <br>
-the simulations for:<br>
+The folder contains 4 folders that contain code to run the simulations for:<br>
 (1) Oxidative stress response : Oxidative_stress<br>
 (2) General stress response : General_stress<br>
 (3) Oxidative stress response with added noise : Noise_model <br>
