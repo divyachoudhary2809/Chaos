@@ -1,4 +1,6 @@
 # Chaos in bacterial stress responses
+The codes in this repository relat to the article 'Chaos in a bacterial stress response' by Choudhary et al. 
+
 The folder contains 4 folders, three of which contain code to run the simulations for the following:<br>
 (1) Oxidative stress response : Oxidative_stress<br>
 (2) General stress response : General_stress<br>
