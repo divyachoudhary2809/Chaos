@@ -31,9 +31,6 @@ Here, <br>
 (d) The 'response_model.py', 'abstract_response_model.py' or 'discreteresponsemodel.py' files contain the Ordinary differential equations (ODEs) for the oxidative and general stress response respectively.<br>
 (e) Finally, the 'main_file.py' or 'main_file_noisy.py' contains the code to run all 3 models together -- the growth rate model + the cell-cell interaction model + the stress response model.<br>
 
-Refer to 'Chaos in a bacterial stress response' Divya Choudhary, Kevin R Foster*, Stephan Uphoff* for more details about the models and data collection + analysis of experimental data.<br>
-*=Corresponding authors
-
 (4) Experimental data analysis contains - <br>
 	&emsp;&emsp;&emsp;&emsp;(a) data_analysis.py<br>
 Here, <br>
@@ -44,3 +41,6 @@ The data_analysis.py file contains code to encode for the following to produce t
 (d) Poincare plots and PgrxA expression traces for alive and dead cells  <br>
 (e) Interdivision time versus DPgrxA ACF peak time for individual cells <br>
  
+
+Refer to 'Chaos in a bacterial stress response' Divya Choudhary, Kevin R Foster*, Stephan Uphoff* for more details about the models and data collection + analysis of experimental data.<br>
+*=Corresponding author
