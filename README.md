@@ -36,7 +36,7 @@ Here, <br>
 (4) Experimental data analysis contains - <br>
 	&emsp;&emsp;&emsp;&emsp;(a) data_analysis.py<br>
 Here, <br>
-The data_analysis.py file contains code to encode for the following to produce the experimental data figures. The RAW experimental data files input to the code are uploaded on Oxford Research Archive (https://doi.org/10.5287/ora-b7dw9pmqd):<br>
+The data_analysis.py file contains code to encode for the following to produce the experimental data figures. The RAW experimental data files input to the code are uploaded to Oxford Research Archive (https://doi.org/10.5287/ora-b7dw9pmqd):<br>
 (a) Plot GrxA fluorescence expression traces for individual mother cells growing in microfluidic growth channels <br>
 (b) Mean elongation rate and PgrxA expression for cells at different positions in the growth trench  <br>
 (c) Mean PgrxA autocorrelation (DPgrxA ACF) for all mother cells and DPgrxA ACF for individual cells  <br>
