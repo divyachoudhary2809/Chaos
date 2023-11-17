@@ -7,7 +7,7 @@ The folder contains 4 folders that contain code to run the simulations for:<br>
 and data analysis for experiments:<br>
 (4) Experimental data analysis: <br>
 
-Both folders contain the following python files: <br>
+Simulation folders contain the following python files: <br>
 (1)Oxidative_stress contains -<br>
 	&emsp;&emsp;&emsp;&emsp;(a) imagesFromModel_function_1001.py<br>
 	&emsp;&emsp;&emsp;&emsp;(b) plotting.py<br>
