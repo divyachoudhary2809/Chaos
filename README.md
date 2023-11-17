@@ -27,10 +27,10 @@ Simulation folders contain the following python files: <br>
 	&emsp;&emsp;&emsp;&emsp;(d) run_noise_oxidative_stress_model.py<br>
 
 Here, <br>
-(a) The 'run_oxidative.py', 'run_general.py' and 'run_noise_oxidative_stress_model.py' are codes to run the simulations for oxidative, general stress response or noisy oxidative stress response model respectively based on user desired inputs.<br>
+(a) The 'run_oxidative.py', 'run_general.py', and 'run_noise_oxidative_stress_model.py' are codes to run the simulations for oxidative, general stress response or noisy oxidative stress response model respectively based on user-desired inputs.<br>
 (b) The 'imagesFromModel_function_1001.py' file contains codes for coding images to collate as movies in Fiji for response outputs from the model. The images are saved in an output folder that the code makes 'Output_images' in the folder where the code is being run.<br>
-(c) The 'plotting.py' contains functions to plot different variables as user desires. By default it plots the GrxA (for oxidative stress) / enzyme (for general stress) dynamics over time and the poincare plots for data points 400 minutes after treatment time.<br>
-(d) The 'response_model.py', 'abstract_response_model.py' or 'discreteresponsemodel.py' files contain the Ordinary differential equations (ODEs) for the oxidative and general stress response respectively.<br>
+(c) The 'plotting.py' contains functions to plot different variables as the user desires. By default it plots the GrxA (for oxidative stress) / enzyme (for general stress) dynamics over time and the Poincare plots for data points 400 minutes after treatment time.<br>
+(d) The 'response_model.py', 'abstract_response_model.py', or 'discreteresponsemodel.py' files contain the Ordinary differential equations (ODEs) for the oxidative and general stress response respectively.<br>
 (e) Finally, the 'main_file.py' or 'main_file_noisy.py' contains the code to run all 3 models together -- the growth rate model + the cell-cell interaction model + the stress response model.<br>
 
 (4) Experimental data analysis contains - <br>
