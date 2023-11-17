@@ -130,7 +130,7 @@ for file_i in  range (len(files)):
     for lpos in range(4):
         tt= []
         elongs_= []
-        for ppp in np.unique(data_all_feat2['Position'].values) [0:4]  :
+        for ppp in np.unique(data_all_feat2['Position'].values)   :
             data_allxx2a= data_all_feat2[data_all_feat2['Position'].values == ppp]
             for thi in  np.unique(data_allxx2a.TrackHeadIndices.values): 
                      data_allxx2ab = data_allxx2a[data_allxx2a['TrackHeadIndices'].values == thi]
@@ -201,7 +201,7 @@ for file_i in  range (len(files)):
     
     colors =['darkblue', 'dodgerblue', 'teal', 'k', 'cyan']
     n=0 ; fig, ax = plt.subplots(figsize=(5,2), dpi = 300)
-    for p in np.unique(data_all_feat.Position.values) [0:10]:
+    for p in np.unique(data_all_feat.Position.values)  :
         
         
         for ch in range(26):
